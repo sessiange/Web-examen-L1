@@ -1,0 +1,144 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #0c2340; 
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.presentation-section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.presentation-section h1 {
+    color: #0c2340;
+    margin-bottom: 10px;
+}
+
+
+.questions-article {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.questions-article h2 {
+    color: #0c2340;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0c2340;
+    padding-bottom: 5px;
+}
+
+.answers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.answers-table th, .answers-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.answers-table th {
+    background-color: #0c2340;
+    color: white;
+}
+
+.answers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+}
+
+
+.gallery-section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.gallery-section h2 {
+    margin-bottom: 15px;
+    color: #0c2340;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    flex: 1;
+    min-width: 250px;   
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.main-footer {
+    background-color: #0c2340;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
